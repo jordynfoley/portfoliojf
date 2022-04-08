@@ -1,0 +1,162 @@
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.left {
+  width: 18%;
+}
+
+.right {
+  width: 85%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #FFFFFF;
+  border-color: #800080;
+  font-family: "Lucida Console", Courier, monospace;
+  color: #D8BFD8;
+  font-size: 20px;
+}
+
+.button1:hover {
+  background-color: #ffe4e1;
+  color: #ffb6c1;
+}
+
+.button2 {
+ background-color: #FFFFFF;
+  border-color: #800080;
+  font-family: "Lucida Console", Courier, monospace;
+  color: #D8BFD8;
+  font-size: 20px;
+}
+
+.button2:hover {
+  background-color: #ffe4e1;
+  color: #ffb6c1;
+}
+
+.button3 {
+  background-color: #d8bfd8;
+  border-color: #800080;
+  font-family: "Lucida Console", Courier, monospace;
+  color: #FFFFFF;
+  font-size: 36px;
+}
+}
+
+.button3:hover {
+  background-color: #ffe4e1;
+  color: #ffb6c1;
+}
+
+.button4 {
+ background-color: #FFFFFF;
+  border-color: #800080;
+  font-family: "Lucida Console", Courier, monospace;
+  color: #D8BFD8;
+  font-size: 20px;
+}
+
+.button4:hover {
+  background-color: #ffe4e1;
+  color: #ffb6c1;
+}
+
+.button5 {
+background-color: #FFFFFF;
+  border-color: #800080;
+  font-family: "Lucida Console", Courier, monospace;
+  color: #D8BFD8;
+  font-size: 20px;
+}
+
+.button5:hover {
+  background-color: #ffe4e1;
+  color: #ffb6c1;
+}
+
+.button6 {
+background-color: #FFFFFF;
+  border-color: #800080;
+  font-family: "Lucida Console", Courier, monospace;
+  color: #D8BFD8;
+  font-size: 20px;
+}
+
+.button6:hover {
+  background-color: #ffe4e1;
+  color: #ffb6c1;
+}
+
+.button7 {
+background-color: #FFFFFF;
+  border-color: #800080;
+  font-family: "Lucida Console", Courier, monospace;
+  color: #D8BFD8;
+  font-size: 20px;
+}
+
+.button7:hover {
+  background-color: #ffe4e1;
+  color: #ffb6c1;
+}
+
+.parallax {
+  background-image: url("https://cdn.glitch.global/51688a42-8681-4b6c-a0fc-41c5ad419fa1/PhotoGrid_Plus_1649296896566.jpg?v=1649296961874");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Split the screen in half */
+.split {
+  height: 91%;
+  width: 80%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 33.2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;}
